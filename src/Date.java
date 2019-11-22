@@ -12,5 +12,12 @@ LocalDateTime nu = LocalDateTime.now();
         calendar.add(Calendar.DAY_OF_YEAR, 160);
         java.util.Date futerdatetime = calendar.getTime();
         System.out.println(futerdatetime);
+
+   Calendar pastCalender = Calendar.getInstance();
+   pastCalender.add(Calendar.DAY_OF_YEAR, -7876);
+        java.util.Date pastdatetime =pastCalender.getTime();
+        System.out.println(pastdatetime);
+
+
     }
 }
